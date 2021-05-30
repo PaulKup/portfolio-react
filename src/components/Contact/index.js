@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
+function ContactForm(props) {
+  const { currentCategory } = props;
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -36,6 +37,7 @@ function ContactForm() {
     }
   };
 
+  if (currentCategory.name === 'Contact') {
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
@@ -61,6 +63,9 @@ function ContactForm() {
       </form>
     </section>
   );
+        } else {
+          return null;
+        }
 }
 
 export default ContactForm;
