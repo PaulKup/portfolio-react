@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.df3fb930.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.81b69daa.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.81b69daa.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.c94dc782.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.c94dc782.js.map",
+    "static/js/2.a54187dc.chunk.js": "/portfolio-react/static/js/2.a54187dc.chunk.js",
+    "static/js/2.a54187dc.chunk.js.map": "/portfolio-react/static/js/2.a54187dc.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.ae0edaca676dcd0897773f84f9ecbaa8.js": "/portfolio-react/precache-manifest.ae0edaca676dcd0897773f84f9ecbaa8.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.df3fb930.chunk.css.map": "/portfolio-react/static/css/main.df3fb930.chunk.css.map",
+    "static/js/2.a54187dc.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.a54187dc.chunk.js.LICENSE.txt",
+    "static/media/NovidTitleImage.png": "/portfolio-react/static/media/NovidTitleImage.0b50babf.png",
+    "static/media/Paul.jpeg": "/portfolio-react/static/media/Paul.092b2c5d.jpeg",
+    "static/media/budgetTracker.png": "/portfolio-react/static/media/budgetTracker.ed094fc7.png",
+    "static/media/love-monster.png": "/portfolio-react/static/media/love-monster.b86c2f78.png",
+    "static/media/noteTaker.png": "/portfolio-react/static/media/noteTaker.3c5e14bd.png",
+    "static/media/pizzaHunt.png": "/portfolio-react/static/media/pizzaHunt.5e7e23cb.png",
+    "static/media/run-buddy-img.png": "/portfolio-react/static/media/run-buddy-img.7c260f85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c94dc782.js",
+    "static/js/2.a54187dc.chunk.js",
+    "static/css/main.df3fb930.chunk.css",
+    "static/js/main.81b69daa.chunk.js"
+  ]
+}
