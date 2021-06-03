@@ -1,11 +1,14 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import runBuddy from '../../assets/images/run-buddy-img.png';
-import novid from '../../assets/images/NovidTitleImage.png';
-import loveMonster from '../../assets/images/love-monster.png';
-import budgetTracker from '../../assets/images/budgetTracker.png';
-import pizzaHunt from '../../assets/images/pizzaHunt.png';
-import noteTaker from '../../assets/images/noteTaker.png';
+import './style.css'
+// import runBuddy from '../../assets/images/run-buddy-img.png';
+// import novid from '../../assets/images/NovidTitleImage.png';
+// import loveMonster from '../../assets/images/love-monster.png';
+// import budgetTracker from '../../assets/images/budgetTracker.png';
+// import pizzaHunt from '../../assets/images/pizzaHunt.png';
+// import noteTaker from '../../assets/images/noteTaker.png';
+// import fretWerx from '../../assets/images/fretWerx.png';
+
 
 function Portfolio(props) {
   const { currentCategory } = props;
@@ -18,32 +21,37 @@ function Portfolio(props) {
                 <div class="run-buddy projects-grid-item">
                     <a href="https://paulkup.github.io/run-buddy/" target="blank">Run Buddy</a>
                     <a href="https://github.com/PaulKup/run-buddy" target="blank">github</a>
-                    <img src={runBuddy} alt='run buddy' />
+                    {/* <img src={runBuddy} alt='run buddy' /> */}
                 </div>
                 <div class="project2 projects-grid-item">
                     <a href="https://prestongeyer713.github.io/novid/" target="blank">Novid</a>
                     <a href="https://prestongeyer713.github.io/novid/" target="blank">github</a>
-                    <img src={novid} alt='novid' />
+                    {/* <img src={novid} alt='novid' /> */}
                 </div>
                 <div class="project3 projects-grid-item">
                     <a href="https://nameless-fortress-88124.herokuapp.com/" target="blank">Love Monster</a>
                     <a href="https://github.com/FlipFlaptheTraitor/Love_Monster/" target="blank">github</a>
-                    <img src={loveMonster} alt='loveMonster' />
+                    {/* <img src={loveMonster} alt='loveMonster' /> */}
                 </div>
                 <div class="project4 projects-grid-item">
                     <a href="https://agile-bastion-64700.herokuapp.com/" target="blank">Budget Tracker</a>
                     <a href="https://github.com/PaulKup/budget-tracker" target="blank">github</a>
-                    <img src={budgetTracker} alt='proj4' />
+                    {/* <img src={budgetTracker} alt='proj4' /> */}
                 </div>
                 <div class="project5 projects-grid-item">
                     <a href="https://desolate-savannah-03152.herokuapp.com/" target="blank">Pizza Hunt</a>
                     <a href="https://github.com/PaulKup/pizza-hunt" target="blank">github</a>
-                    <img src={pizzaHunt} alt='proj5' />
+                    {/* <img src={pizzaHunt} alt='proj5' /> */}
                 </div>
-                <div class="project5 projects-grid-item">
+                <div class="project6 projects-grid-item">
                     <a href="https://boiling-hollows-19999.herokuapp.com/" target="blank">Note Taker</a>
                     <a href="https://github.com/PaulKup/Note-Taker" target="blank">github</a>
-                    <img src={noteTaker} alt='proj6' />
+                    {/* <img src={noteTaker} alt='proj6' /> */}
+                </div>
+                <div class="project7 projects-grid-item">
+                    <a href="https://calm-castle-07958.herokuapp.com/" target="blank">Fret Werx</a>
+                    <a href="https://github.com/FlipFlaptheTraitor/Fret-Werx" target="blank">github</a>
+                    {/* <img src={fretWerx} alt='proj7' /> */}
                 </div>
             </div>
         </div>
